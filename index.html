@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css" integrity="sha384-p2jx59pefphTFIpeqCcISO9MdVfIm4pNnsL08A6v5vaQc4owkQqxMV8kg4Yvhaw/" crossorigin="anonymous">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel Agency</title>
+</head>
+
+<body id="home" class="scrollspy">
+<div class="navbar-fixed">
+  <nav class="teal">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="#home" class="brand-logo">Travel Agency</a>
+        <a href="#" data-activates="mobile-nav" class="button-collapse">
+        <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#search">Search</a>
+          </li>
+          <li>
+            <a href="#popular">Popular Places</a>
+          </li>
+          <li>
+            <a href="#gallery">Gallery</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+<ul class="side-nav" id="mobile-nav">
+  <li>
+    <a href="#home">Home</a>
+  </li>
+  <li>
+    <a href="#search">Search</a>
+  </li>
+  <li>
+    <a href="#popular">Popular Places</a>
+  </li>
+  <li>
+    <a href="#gallery">Gallery</a>
+  </li>
+  <li>
+    <a href="#contact">Contact</a>
+  </li>
+</ul>
+<!-- Şection: Image Slider below nav bar -->
+<section class="slider">
+  <ul class="slides">
+    <li>
+      <img src="img/resort1.jpeg" alt="">
+      <div class="caption center-align">
+      <h2 class="grey-text text-lighten-1">Lorem, ipsum dolor.</h2>
+      <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit tenetur quae sed dignissimos officiis earum molestiae!</h5>
+      <a href="#!" class="btn btn-large waves-effect learn-more">Learn More...</a>
+    </div>
+    </li>
+    <li>
+        <img src="img/resort2.jpeg" alt="">
+        <div class="caption left-align">
+        <h2 class="grey-text text-lighten-1">Lorem, ipsum dolor.</h2>
+        <h5 class="hide-on-small-only light grey-text text-lighten-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit tenetur quae sed dignissimos officiis earum molestiae!</h5>
+        <a href="#!" class="btn btn-large waves-effect learn-more" >Learn More...</a>
+        </div>
+      </li>
+      <li>
+          <img src="img/resort3.jpeg" alt="">
+          <div class="caption right-align">
+          <h2 class="grey-text text-lighten-1">Lorem, ipsum dolor.</h2>
+          <h5 class="hide-on-small-only light grey-text text-lighten-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit tenetur quae sed dignissimos officiis earum molestiae!</h5>
+          <a href="#!" class="btn btn-large waves-effect learn-more">Learn More...</a>
+          </div>
+        </li>
+  </ul>
+</section>
+<!-- Section search bar -->
+<section id="search" class="section-search teal grey-text center text-lighten-3 scrollspy">
+  <div class="container">
+    <div class="row">
+    <div class="col s12">
+      <h3>Search your destination</h3>
+      <div class="input-field">
+        <input type="text"  id="autocomplete-input" class="white grey-text autocomplete" placeholder="Type your destination">
+      </div>
+      
+    </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section Icons -->
+
+<section class="section section-icons grey lighten-4 center">
+  <div class="container">
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="card-panel">
+          <i class="material-icons large teal-text">room</i>
+          <h4>Pick where</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, beatae.</p>
+        </div>
+      </div>
+      <div class="col s12 m4">
+          <div class="card-panel">
+            <i class="material-icons large teal-text">shop</i>
+            <h4>Shopping travels</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, beatae.</p>
+          </div>
+        </div>
+        <div class="col s12 m4">
+            <div class="card-panel">
+              <i class="material-icons large teal-text">airplanemode_active</i>
+              <h4>Fly by air</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, beatae.</p>
+            </div>
+          </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section: Popular places -->
+
+<section id="popular" class="section section-popular scrollspy">
+  <div class="container">
+    <div class="row">
+      <h4 class="center"><span class="teal-text">Popular</span> places </h4>
+      <div class="col s12 m4">
+      <div class="card">
+        <div class="card-image"><img src="img/resort1.jpeg" alt="">
+        <span class="card-title text-darken-4">Maldives</span>
+      </div>
+      <div class="card-content">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt eligendi possimus nostrum?</p>
+      </div>
+      </div>
+      </div>
+      <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image"><img src="img/resort2.jpeg" alt="">
+            <span class="card-title text-darken-4">Bahamas</span>
+          </div>
+          <div class="card-content">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt eligendi possimus nostrum?</p>
+          </div>
+          </div>
+          </div>
+          <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image"><img src="img/resort4.jpeg" alt="" class="popular-3">
+                <span class="card-title">Nova Scotia</span>
+              </div>
+              <div class="card-content">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt eligendi possimus nostrum?</p>
+              </div>
+              </div>
+              </div>
+    </div>
+    <div class="row">
+      <div class="col s12 center">
+      <a href="#contact" class="btn btn-large waves-effect center"><i class="material-icons left">send</i> Contact us for more information</a>
+    </div>
+  </div>
+  </div>
+</section>
+<!-- Section: Follow us -->
+
+<section class="section section-follow teal white-text darken-2 center">
+  <div class="row">
+    <div class="container">
+      <div class="col s12">
+      <h4>Follow us on social media</h4>
+      <a href="#"><i class="fab fa-facebook fa-4x"></i></a>
+      <a href="#"><i class="fab fa-twitter fa-4x"></i></a>
+      <a href="#"><i class="fab fa-google-plus fa-4x"></i></a>
+      <a href="#"><i class="fab fa-pinterest fa-4x"></i></a>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Section Gallery -->
+
+<section id="gallery" class="section section-gallery center scrollspy">
+  <div class="container">
+    <h4><span class="teal-text">Photo</span> Gallery</h4>
+    <div class="row">
+      <div class="col s12 m3">
+        <img src="https://source.unsplash.com/1600x900/?beach" alt="" class="materialboxed responsive-img">
+      </div>
+      <div class="col s12 m3">
+          <img src="https://source.unsplash.com/1600x900/?nature" alt="" class="materialboxed responsive-img">
+      </div>
+      <div class="col s12 m3">
+            <img src="https://source.unsplash.com/1600x900/?town" alt="" class="materialboxed responsive-img">
+      </div>
+      <div class="col s12 m3">
+        <img src="https://source.unsplash.com/1600x900/?travel" alt="" class="materialboxed responsive-img">
+      </div>
+    </div>
+    <div class="row">
+        <div class="col s12 m3">
+          <img src="https://source.unsplash.com/1600x900/?traveling" alt="" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+            <img src="https://source.unsplash.com/1600x900/?bahamas" alt="" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+              <img src="https://source.unsplash.com/1600x900/?lakes" alt="" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+          <img src="https://source.unsplash.com/1600x900/?india" alt="" class="materialboxed responsive-img">
+        </div>
+      </div>
+      <div class="row">
+          <div class="col s12 m3">
+            <img src="https://source.unsplash.com/1600x900/?japan" alt="" class="materialboxed responsive-img">
+          </div>
+          <div class="col s12 m3">
+              <img src="https://source.unsplash.com/1600x900/?maldives" alt="" class="materialboxed responsive-img">
+          </div>
+          <div class="col s12 m3">
+                <img src="https://source.unsplash.com/1600x900/?europe" alt="" class="materialboxed responsive-img">
+          </div>
+          <div class="col s12 m3">
+            <img src="https://source.unsplash.com/1600x900/?america" alt="" class="materialboxed responsive-img">
+          </div>
+        </div>
+  </div>
+</section>
+
+<!-- Section contact-->
+<section id="contact" class="section section-contact scrollspy">
+  <div class="container">
+    <div class="row">
+      <div class="col s12 m6">
+        <div class="card-panel teal white-text center">
+          <i class="material-icons medium">email</i>
+          <h4>Contact us</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, totam consequatur! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur dolorum ex ipsam saepe repudiandae at!</p>
+        </div>
+        <ul class="collection with-header">
+            <li class="collection-header"><h4>Location:</h4></li>
+            <li class="collection-item">Travel Agency</li>
+            <li class="collection-item">Splitska 123</li>
+            <li class="collection-item">Split, Croatia</li>
+          </ul>
+      </div>
+    <div class="col s12 m6">
+        <div class="card-panel grey lighten-3">
+            <h5 class="contact-heading">Please fill out this form</h5>
+            <div class="input-field">
+              <input type="text" placeholder="Name" id="name">
+              <label for="name">Name</label>
+            </div>
+            <div class="input-field">
+              <input type="email" placeholder="Email" id="email">
+              <label for="email">Email</label>
+            </div>
+            <div class="input-field">
+              <input type="text" placeholder="Phone" id="phone">
+              <label for="phone">Phone</label>
+            </div>
+            <div class="input-field">
+              <textarea class="materialize-textarea" placeholder="Enter Message" id="message"></textarea>
+              <label for="message">Message</label>
+            </div>
+            <input type="submit" value="Submit" class="btn">
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<!-- Footer -->
+
+<footer class="section teal darken-3 center">
+  <p>This site is done by <a href="https://www.facebook.com/stipo.margic">Stipo Margic</a> &dash; &copy; 2018</p>
+</footer>
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/myjs.js"></script>
+</body>
+
+</html>
